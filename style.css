@@ -1,0 +1,124 @@
+.b{
+    background-image:url("background.jpeg");
+    background-size: 100%;
+    background-position-y: -120px;
+}
+
+.i{
+    width: 120px;
+    margin-left:40px;
+    margin-top:14px;
+}
+
+.list1{
+    list-style: none ;
+    margin-left: 400px;
+    margin-top: -19px;
+
+}
+
+.item1{
+    display:inline;
+    color:white;
+    font-family: "Gotham";
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:30px;
+}
+
+@font-face {
+    font-family:"Gotham";
+    src: url("Gotham.woff2");
+}
+
+.list2{
+    list-style: none;
+    margin-left: 1210px;
+    margin-top: -33px;
+}
+
+.p{
+    color:white;
+    font-family:"Gotham";
+    font-weight:bold;
+    font-size:40px;
+    margin-left:680px;
+    margin-top:80px;
+}
+
+.a{
+    color:white;
+    font-family:"Gotham";
+    font-size:18px;
+    margin-left:655px;
+    margin-top:-34px;
+    position:absolute;
+}
+
+.d1{
+    width:1000px;
+    height:100px;
+    background-color:none;
+    margin-left: 300px;
+    margin-top: 420px;
+}
+
+.list3{
+    list-style: none;  
+}
+
+.item2{
+    display:inline-block;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.d2{
+    color:white;
+    font-family:"Gotham";
+    font-size:21px;
+    font-weight:bold;
+}
+
+.d3{
+    color:white;
+    font-family:"Gotham";
+    font-size:12px;
+    font-weight:bold;
+    margin-top:12px;
+}
+
+.item3{
+    margin-left:630px;
+    margin-top:-53px;
+}
+
+.btn{
+    width:204px;
+    height:40px;
+    background-color:transparent;
+    border-color:white;
+    color:white;
+    font-family:"Gotham";
+    font-weight:bold;
+    border-style:solid;
+    border-width:3px;
+    border-radius: 3px;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+.item1:hover{
+    background-color: rgba(130, 130, 130, 0.3);
+    box-shadow: 0px 0px 0px 8px rgba(130, 130, 130, 0.256);
+    cursor:pointer;
+    transition: 0.4s;
+    border-radius: 1px;
+}
+
